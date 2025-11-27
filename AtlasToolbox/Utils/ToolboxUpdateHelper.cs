@@ -8,7 +8,7 @@ namespace AtlasToolbox.Utils
 {
     public class ToolboxUpdateHelper
     {
-        const string RELEASE_URL = "https://api.github.com/repos/atlas-os/atlas-toolbox/releases/latest";
+        const string RELEASE_URL = "https://api.github.com/repos/TheyCreeper/atlas-toolbox/releases/latest";
         public static string commandUpdate;
         public static JsonDocument result;
         public static bool CheckUpdates()
